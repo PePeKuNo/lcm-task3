@@ -2,16 +2,17 @@ GEM
   remote: https://rubygems.org/
   specs:
     nio4r (2.7.0)
-    puma (6.4.2)
+    puma (6.4.3)
       nio4r (~> 2.0)
-    rack (2.2.8)
-    rack-protection (3.1.0)
-      rack
-    sinatra (3.1.0)
-      rack (~> 2.0)
-      rack-protection (= 3.1.0)
-      tilt (~> 2.0)
+    rack (3.1.7)
+    rackup (2.1.0)
+      rack (>= 2.0, < 4)
+      webrick (~> 1.8)
+    sinatra (4.0.0)
+      rack (~> 3.0)
+      rackup (~> 2.0)
     tilt (2.2.0)
+    webrick (1.8.1)
 
 PLATFORMS
   ruby
@@ -19,7 +20,9 @@ PLATFORMS
 
 DEPENDENCIES
   puma (~> 6.0)
-  sinatra (~> 3.0)
+  rackup (~> 2.0)
+  sinatra (~> 4.0)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.5.10

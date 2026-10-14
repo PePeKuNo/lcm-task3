@@ -1,3 +1,5 @@
 source 'https://rubygems.org'
-gem 'sinatra', '~> 3.0'
+gem 'sinatra', '~> 4.0'
 gem 'puma', '~> 6.0'
+gem 'rackup', '~> 2.0'
+gem 'webrick', '~> 1.8'
