@@ -19,8 +19,8 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  puma
-  sinatra
+  puma (= 6.4.2)
+  sinatra (= 4.0.0)
 
 BUNDLED WITH
    2.5.10
