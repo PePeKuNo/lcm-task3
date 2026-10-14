@@ -19,10 +19,8 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  puma (~> 6.0)
-  rackup (~> 2.0)
-  sinatra (~> 4.0)
-  webrick (~> 1.8)
+  puma
+  sinatra
 
 BUNDLED WITH
    2.5.10
