@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
-gem 'sinatra'
-gem 'puma'
+gem 'sinatra', '4.0.0'
+gem 'puma', '6.4.2'
